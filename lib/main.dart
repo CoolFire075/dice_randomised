@@ -84,11 +84,11 @@ class DicesImage extends StatelessWidget {
           children: [
             Image.asset(
               value.firstDice.path,
-              width: 200,
+              width: 150,
             ),
             Image.asset(
               value.secondDice.path,
-              width: 200,
+              width: 150,
             )
           ],
         );
